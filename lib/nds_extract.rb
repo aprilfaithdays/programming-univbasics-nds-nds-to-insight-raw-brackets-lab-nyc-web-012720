@@ -17,13 +17,13 @@ def directors_totals(nds)
 
 hash_to_return = {}
 counter = 0
-while counter < directors_database.length do
-  key = directors_database[counter][:name]
+while counter < nds.length do
+  key = nds[counter][:name]
   puts key
 
   inner_counter = 0
   value = 0
-  while inner_counter < directors_database[counter][:movies].length do
+  while inner_counter < nds[counter][:movies].length do
     value += nds[counter][:movies][inner_counter][:worldwide_gross]
      inner_counter += 1
   end
