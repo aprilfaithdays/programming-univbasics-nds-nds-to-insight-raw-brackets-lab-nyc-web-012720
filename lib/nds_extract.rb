@@ -5,7 +5,6 @@ def directors_totals(nds)
   # Remember, it's always OK to pretty print what you get *in* to make sure
   # that you know what you're starting with!
   #
-  #
   # The Hash result be full of things like "Jean-Pierre Jeunet" => "222312123123"
   result = {
   }
@@ -14,12 +13,10 @@ def directors_totals(nds)
   # and total up all the
   # ...
   # ...
-  # ...
-  #
   #
   # Be sure to return the result at the end!
 
-  hash_to_return = {}
+hash_to_return = {}
 counter = 0
 while counter < directors_database.length do
   key = directors_database[counter][:name]
@@ -38,7 +35,6 @@ while counter < directors_database.length do
 end
 
 hash_to_return
-  
   
 end
 
