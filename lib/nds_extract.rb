@@ -24,7 +24,7 @@ while counter < directors_database.length do
   inner_counter = 0
   value = 0
   while inner_counter < directors_database[counter][:movies].length do
-    value += directors_database[counter][:movies][inner_counter][:worldwide_gross]
+    value += nds[counter][:movies][inner_counter][:worldwide_gross]
      inner_counter += 1
   end
 
